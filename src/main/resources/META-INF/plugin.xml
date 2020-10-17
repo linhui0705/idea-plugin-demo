@@ -1,21 +1,34 @@
 <idea-plugin>
+    <!--  插件id，保持唯一  -->
     <id>net.coderlin.idea-plugin-demo</id>
-    <name>Plugin display name here</name>
+    <!--  插件名称  -->
+    <name>idea-plugin-demo</name>
+    <!--  作者和提供方的信息  -->
     <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
-
+    <!--  版本号  -->
+    <version>1.0.0</version>
+    <!--  插件功能描述  -->
     <description><![CDATA[
     Enter short description for your plugin here.<br>
     <em>most HTML tags may be used</em>
     ]]></description>
+    <!--  变更日志  -->
+    <change-notes><![CDATA[
+    Enter change notes for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></change-notes>
 
+    <!--  相关其他依赖  -->
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <depends>com.intellij.modules.platform</depends>
 
+    <!--  扩展内容  -->
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
     </extensions>
 
+    <!--  菜单动作  -->
     <actions>
         <!-- Add your actions here -->
     </actions>
