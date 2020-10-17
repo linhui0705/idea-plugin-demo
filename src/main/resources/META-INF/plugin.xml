@@ -31,6 +31,10 @@
     <!--  菜单动作  -->
     <actions>
         <!-- Add your actions here -->
+        <action id="FirstPluginActionID" class="net.coderlin.plugin.demo.action.FirstPluginAction" text="测试"
+                description="描述">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
     </actions>
 
     <applicationListeners>
