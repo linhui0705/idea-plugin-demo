@@ -2,9 +2,7 @@ package net.coderlin.plugin.demo.listener;
 
 import com.intellij.ide.AppLifecycleListener;
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.startup.StartupActivity;
 import com.intellij.openapi.ui.Messages;
-import net.coderlin.plugin.demo.dialog.TauntDialog;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
