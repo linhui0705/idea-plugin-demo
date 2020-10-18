@@ -26,6 +26,9 @@
     <!--  扩展内容  -->
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
+        <applicationService serviceInterface="net.coderlin.plugin.demo.service.ApplicationService"
+                            serviceImplementation="net.coderlin.plugin.demo.service.impl.ApplicationServiceImpl"/>
+        <postStartupActivity implementation="net.coderlin.plugin.demo.activity.MyStartupActivity"/>
     </extensions>
 
     <!--  菜单动作  -->
@@ -34,6 +37,9 @@
         <action id="FirstPluginActionID" class="net.coderlin.plugin.demo.action.FirstPluginAction" text="测试"
                 description="描述">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+        <action id="PopupAction" class="net.coderlin.plugin.demo.action.PopupAction" text="添加MB笔记" description="添加笔记">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
     </actions>
 
