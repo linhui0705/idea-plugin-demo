@@ -29,6 +29,9 @@
         <applicationService serviceInterface="net.coderlin.plugin.demo.service.ApplicationService"
                             serviceImplementation="net.coderlin.plugin.demo.service.impl.ApplicationServiceImpl"/>
         <postStartupActivity implementation="net.coderlin.plugin.demo.activity.MyStartupActivity"/>
+
+        <toolWindow id="NoteWindow" factoryClass="net.coderlin.plugin.demo.window.NoteListWindowFactory" anchor="right">
+        </toolWindow>
     </extensions>
 
     <!--  菜单动作  -->
